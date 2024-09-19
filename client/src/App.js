@@ -32,7 +32,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h1 style={{color:"gold"}}>{"You did a good job!!"}</h1>
-        <h1 style={{color:"red"}}>{users[0].name}</h1>
+        <h1 style={{color:"red"}}>{loading ? "loading" : users[0].name}</h1>
         <h1 style={{color:"blue"}}>{"You did a good job!!"}</h1>
         <a
           className="App-link"
